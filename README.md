@@ -1,4 +1,7 @@
-Zenith is an Android world news app that allows users to explore various countries and create a truly global citizen. To accomplish this, users can save specific countries or news categories they are interested in, and see targeted information in an updating feed, from categories such as business and sports, to entertainment and health. Each supported country also has its own page, where users can see news, general statistics, and an image of the country. There are additional features such as searching, filters, and more, so if any of this is interesting to you, please download and give it a try!
+Developed by Jiashu Yang, Andres Perez-Doval, Maudeline Deus, and Jonathan Adams.
+
+# What is Zenith?
+Zenith, meaning the peak, or the summit, is intended to enable users to stand at the highest points of global information and media. Zenith is an Android world news app that allows users to explore various countries and create a truly global citizen. To accomplish this, users can save specific countries or news categories they are interested in, and see targeted information in an updating feed, from categories such as business and sports, to entertainment and health. Each supported country also has its own page, where users can see news, general statistics, and an image of the country. There are additional features such as searching, filters, and more, so if any of this is interesting to you, please download and give it a try!
 
 # TeamL-Zenith
 
