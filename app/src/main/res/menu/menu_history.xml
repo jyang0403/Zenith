@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.zenith.ui.country.historyCountry.ReadHistoryActivity">
+
+    <item android:id="@+id/menu_flag"
+        app:actionLayout="@layout/country_article_menu"
+        android:title="@string/flag"
+        app:showAsAction="ifRoom"/>
+</menu>

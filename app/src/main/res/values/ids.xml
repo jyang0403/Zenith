@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Brazil_Flag" type="id"></item>
+    <item name="China_Flag" type="id"></item>
+    <item name="Egypt_Flag" type="id"></item>
+    <item name="GreatBritain_Flag" type="id"></item>
+    <item name="Russia_Flag" type="id"></item>
+    <item name="Turkey_Flag" type="id"></item>
+</resources>

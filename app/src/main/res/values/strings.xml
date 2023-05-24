@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Zenith</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="explore_fragment_label">Explore</string>
+    <string name="country_error"> We are unable to access the information at this time. Please check your connection or try again later.</string>
+
+    <string name="random">Surprise Me!</string>
+    <string name="my_countries">My Countries</string>
+    <string name="news_preferences">News Preferences</string>
+
+    <string name="title_explore">Explore</string>
+    <string name="title_feed">Feed</string>
+    <string name="title_profile">Profile</string>
+    <string name="feed_fragment_label">Feed</string>
+    <string name="profile_fragment_label">Profile</string>
+
+    <string name="begin">Begin</string>
+    <string name="search">Search</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_country">CountryActivity</string>
+    <string name="tab_home_fragment">HOME</string>
+    <string name="tab_history_fragment">HISTORY</string>
+    <string name="tab_news_fragment">NEWS</string>
+    <string name="tab_culture_fragment">CULTURE</string>
+    <string name="country_activity">CountryActivity</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_activity_news_category">NewsCategoryActivity</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+    <string name="save">Save</string>
+    <string name="zenith">Zenith</string>
+    <string name="see_all">SEE ALL</string>
+    <string name="map">Map</string>
+    <string name="continent">Continents</string>
+    <string name="countries">Countries</string>
+    <string name="header">Header</string>
+    <string name="content">Content</string>
+    <string name="flag">Flag</string>
+    <string name="link">Link</string>
+    <string name="click_link">Click the link icon above to view full article</string>
+
+    <string name="search_hint">Search for a country</string>
+    <string name="no_result">No Results.</string>
+    <string name="summary">Summary</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:scrollbarSize="5sp"
+            android:fadeScrollbars="false"
+            android:background="@color/white"
+            android:layout_weight="1"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            app:cornerRadius="15sp"
+            app:strokeColor="@color/earth"
+            android:textSize="20sp"
+            app:strokeWidth="2sp"
+            android:layout_marginLeft="100sp"
+            android:layout_marginRight="100sp"
+            android:backgroundTint="@color/screen_background"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_weight="0"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            />
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

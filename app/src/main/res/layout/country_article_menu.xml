@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/flag_image_menu"
+    android:paddingRight="10sp"
+    android:layout_width="40sp"
+    android:layout_height="35sp"
+    android:layout_gravity="center"
+     />

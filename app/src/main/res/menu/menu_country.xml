@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.zenith.ui.country.CountryActivity">
+
+    <item
+        android:id="@+id/menu_country_flag"
+        app:actionLayout="@layout/country_article_menu"
+        android:title="@string/flag"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bookmark"
+        android:icon="@drawable/bookmark_border"
+        android:title="bookmarked"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:descendantFocusability="blocksDescendants">
+
+            <TextView
+                android:id="@+id/hist_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_blue"
+                android:text="@string/header"
+                android:textAlignment="center"
+                android:layout_marginTop="0sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+            <TextView
+                android:id="@+id/hist_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/header"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/read_hist_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
